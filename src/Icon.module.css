@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: right;
+    margin: auto;
+    /*align-items: center;*/
+    height: 500px;
+    width: 300px;
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    top: 20px;
+    right: 15px;
+    
+}
+
+.mobile {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.time{
+margin-bottom: 10px;
+font-size: 22px;
+}
+.icon {
+    margin-right: 10px;
+}
