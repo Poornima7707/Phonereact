@@ -1,31 +1,35 @@
-.container {
+.base {
     display: flex;
     justify-content: center;
     justify-content: right;
     margin: auto;
-    /*align-items: center;*/
     height: 500px;
-    width: 300px;
+    width: 270px;
     background: url(back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 25px;
+    border:15px solid black;
     top: 20px;
     right: 15px;
     
 }
 
-.mobile {
+.container {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+    padding: 20px; 
 }
+
 .time{
 margin-bottom: 10px;
-font-size: 22px;
+font-size: 25px;
 }
+
 .icon {
-    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    
 }

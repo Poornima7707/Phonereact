@@ -1,13 +1,11 @@
 import React from 'react';
-//import logo from './logo.svg';
-import Icon from './Icon';
-
-
+import Data from './Data';
 
 function App() {
   return (
     <div className="App">
-    <Icon/>
+    <Data/>
+    
     </div>
   );
 }
